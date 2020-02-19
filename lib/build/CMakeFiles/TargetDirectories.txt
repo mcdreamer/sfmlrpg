@@ -1,0 +1,3 @@
+/Users/adodman/mcdreamer/SFMLrpg/lib/build/CMakeFiles/prpg.dir
+/Users/adodman/mcdreamer/SFMLrpg/lib/build/CMakeFiles/ALL_BUILD.dir
+/Users/adodman/mcdreamer/SFMLrpg/lib/build/CMakeFiles/ZERO_CHECK.dir

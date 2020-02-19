@@ -13,7 +13,27 @@
 		5AF7183F23FB06C900F60241 /* nice_music.ogg in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7183E23FB06C900F60241 /* nice_music.ogg */; };
 		5AF7184123FB06C900F60241 /* sansation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7184023FB06C900F60241 /* sansation.ttf */; };
 		5AF7184323FB06C900F60241 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7184223FB06C900F60241 /* icon.png */; };
+		5AF7194723FDA81A00F60241 /* libprpg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF7194423FDA75300F60241 /* libprpg.a */; };
+		5AF7194A23FDAC9E00F60241 /* sfmlrenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7194823FDAC9E00F60241 /* sfmlrenderer.cpp */; };
+		5AF7194D23FDAD1B00F60241 /* sfmlrunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7194B23FDAD1B00F60241 /* sfmlrunner.cpp */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5AF7194323FDA75300F60241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF7193D23FDA75300F60241 /* prpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = CA27470C504946CAAFBFAEAC;
+			remoteInfo = prpg;
+		};
+		5AF7194523FDA81800F60241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF7193D23FDA75300F60241 /* prpg.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 426D1F21959C4588AFC20592;
+			remoteInfo = prpg;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		5AF7183123FB06C900F60241 /* SFMLrpg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SFMLrpg.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -25,6 +45,11 @@
 		5AF7183E23FB06C900F60241 /* nice_music.ogg */ = {isa = PBXFileReference; lastKnownFileType = file; name = nice_music.ogg; path = ../nice_music.ogg; sourceTree = "<group>"; };
 		5AF7184023FB06C900F60241 /* sansation.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = sansation.ttf; path = ../sansation.ttf; sourceTree = "<group>"; };
 		5AF7184223FB06C900F60241 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = icon.png; path = ../icon.png; sourceTree = "<group>"; };
+		5AF7193D23FDA75300F60241 /* prpg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = prpg.xcodeproj; path = lib/build/prpg.xcodeproj; sourceTree = "<group>"; };
+		5AF7194823FDAC9E00F60241 /* sfmlrenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sfmlrenderer.cpp; sourceTree = "<group>"; };
+		5AF7194923FDAC9E00F60241 /* sfmlrenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sfmlrenderer.h; sourceTree = "<group>"; };
+		5AF7194B23FDAD1B00F60241 /* sfmlrunner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sfmlrunner.cpp; sourceTree = "<group>"; };
+		5AF7194C23FDAD1B00F60241 /* sfmlrunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sfmlrunner.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF7194723FDA81A00F60241 /* libprpg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,8 +67,10 @@
 		5AF7182723FB06C900F60241 = {
 			isa = PBXGroup;
 			children = (
+				5AF7193D23FDA75300F60241 /* prpg.xcodeproj */,
 				5AF7183323FB06C900F60241 /* SFMLrpg */,
 				5AF7183223FB06C900F60241 /* Products */,
+				5AF7193B23FDA6CB00F60241 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +90,10 @@
 				5AF7183923FB06C900F60241 /* main.cpp */,
 				5AF7183B23FB06C900F60241 /* Resources */,
 				5AF7183423FB06C900F60241 /* Supporting Files */,
+				5AF7194823FDAC9E00F60241 /* sfmlrenderer.cpp */,
+				5AF7194923FDAC9E00F60241 /* sfmlrenderer.h */,
+				5AF7194B23FDAD1B00F60241 /* sfmlrunner.cpp */,
+				5AF7194C23FDAD1B00F60241 /* sfmlrunner.h */,
 			);
 			path = SFMLrpg;
 			sourceTree = "<group>";
@@ -85,6 +117,21 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		5AF7193B23FDA6CB00F60241 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5AF7193E23FDA75300F60241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7194423FDA75300F60241 /* libprpg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -100,6 +147,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				5AF7194623FDA81800F60241 /* PBXTargetDependency */,
 			);
 			name = SFMLrpg;
 			productName = SFMLrpg;
@@ -131,12 +179,28 @@
 			mainGroup = 5AF7182723FB06C900F60241;
 			productRefGroup = 5AF7183223FB06C900F60241 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 5AF7193E23FDA75300F60241 /* Products */;
+					ProjectRef = 5AF7193D23FDA75300F60241 /* prpg.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				5AF7183023FB06C900F60241 /* SFMLrpg */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		5AF7194423FDA75300F60241 /* libprpg.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libprpg.a;
+			remoteRef = 5AF7194323FDA75300F60241 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		5AF7182E23FB06C900F60241 /* Resources */ = {
@@ -178,12 +242,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF7194A23FDAC9E00F60241 /* sfmlrenderer.cpp in Sources */,
 				5AF7183A23FB06C900F60241 /* main.cpp in Sources */,
 				5AF7183723FB06C900F60241 /* ResourcePath.mm in Sources */,
+				5AF7194D23FDAD1B00F60241 /* sfmlrunner.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5AF7194623FDA81800F60241 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = prpg;
+			targetProxy = 5AF7194523FDA81800F60241 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		5AF7184423FB06C900F60241 /* Debug */ = {
@@ -278,6 +352,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+					"${PROJECT_DIR}/lib",
+				);
 				INFOPLIST_FILE = "SFMLrpg/SFMLrpg-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -288,6 +367,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+					"${PROJECT_DIR}/lib",
+				);
 				INFOPLIST_FILE = "SFMLrpg/SFMLrpg-Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
