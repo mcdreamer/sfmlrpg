@@ -33,6 +33,13 @@
 			remoteGlobalIDString = 426D1F21959C4588AFC20592;
 			remoteInfo = prpg;
 		};
+		5AF7197C23FDB04700F60241 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5AF7197823FDB04700F60241 /* SKrpg.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 5AF7195823FDB01600F60241;
+			remoteInfo = SKrpg;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +57,7 @@
 		5AF7194923FDAC9E00F60241 /* sfmlrenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sfmlrenderer.h; sourceTree = "<group>"; };
 		5AF7194B23FDAD1B00F60241 /* sfmlrunner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sfmlrunner.cpp; sourceTree = "<group>"; };
 		5AF7194C23FDAD1B00F60241 /* sfmlrunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sfmlrunner.h; sourceTree = "<group>"; };
+		5AF7197823FDB04700F60241 /* SKrpg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SKrpg.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,7 @@
 		5AF7193B23FDA6CB00F60241 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AF7197823FDB04700F60241 /* SKrpg.xcodeproj */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -128,6 +137,14 @@
 			isa = PBXGroup;
 			children = (
 				5AF7194423FDA75300F60241 /* libprpg.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5AF7197923FDB04700F60241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5AF7197D23FDB04700F60241 /* SKrpg.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -184,6 +201,10 @@
 					ProductGroup = 5AF7193E23FDA75300F60241 /* Products */;
 					ProjectRef = 5AF7193D23FDA75300F60241 /* prpg.xcodeproj */;
 				},
+				{
+					ProductGroup = 5AF7197923FDB04700F60241 /* Products */;
+					ProjectRef = 5AF7197823FDB04700F60241 /* SKrpg.xcodeproj */;
+				},
 			);
 			projectRoot = "";
 			targets = (
@@ -198,6 +219,13 @@
 			fileType = archive.ar;
 			path = libprpg.a;
 			remoteRef = 5AF7194323FDA75300F60241 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		5AF7197D23FDB04700F60241 /* SKrpg.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = SKrpg.app;
+			remoteRef = 5AF7197C23FDB04700F60241 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
