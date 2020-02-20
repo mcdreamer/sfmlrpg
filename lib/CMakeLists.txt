@@ -14,7 +14,9 @@ set(SRCS
 	game/game.cpp
 	include/key.h
 	include/rect.h
+	include/point.h
 	include/colour.h
+	include/size.h
 	include/igamerenderer.h
 	include/gameinfo.h
 	include/game.h

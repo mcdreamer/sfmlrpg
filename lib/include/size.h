@@ -1,12 +1,17 @@
-//
-//  size.h
-//  prpg
-//
-//  Created by ADodman on 20/02/2020.
-//
+#pragma once
 
-#ifndef size_h
-#define size_h
+namespace prpg {
 
+//-----------------------------------------------------------------
+struct Size
+{
+	Size(int width_, int height_)
+	: width(width_),
+	height(height_)
+	{}
+	
+	int width = 0;
+	int height = 0;
+};
 
-#endif /* size_h */
+}

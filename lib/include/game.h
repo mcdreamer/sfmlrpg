@@ -1,5 +1,7 @@
 #pragma once
 
+#include <memory>
+
 namespace prpg {
 
 struct GameInfo;
@@ -8,10 +10,15 @@ class IGameRenderer;
 enum class GameState;
 enum class Key;
 	
+class Character;
+	
 //-----------------------------------------------------------------
 class Game
 {
 public:
+	Game();
+	~Game();
+	
 	GameInfo getGameInfo() const;
 	GameState getGameState() const;
 	
@@ -19,9 +26,11 @@ public:
 	void update();
 	void render(IGameRenderer& renderer);
 	
-	int m_X = 0;
-	int m_Y = 0;
 	bool m_Running = true;
+	
+	static const int m_TileSize = 16;
+	
+	std::unique_ptr<Character>	m_Char;
 };
 
 }

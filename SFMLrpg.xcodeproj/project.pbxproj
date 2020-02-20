@@ -15,7 +15,8 @@
 		5AF7184323FB06C900F60241 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5AF7184223FB06C900F60241 /* icon.png */; };
 		5AF7194723FDA81A00F60241 /* libprpg.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF7194423FDA75300F60241 /* libprpg.a */; };
 		5AF7194A23FDAC9E00F60241 /* sfmlrenderer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7194823FDAC9E00F60241 /* sfmlrenderer.cpp */; };
-		5AF7194D23FDAD1B00F60241 /* sfmlrunner.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7194B23FDAD1B00F60241 /* sfmlrunner.cpp */; };
+		5AF7194D23FDAD1B00F60241 /* sfmlrunner.mm in Sources */ = {isa = PBXBuildFile; fileRef = 5AF7194B23FDAD1B00F60241 /* sfmlrunner.mm */; };
+		5AF7199823FEF9AA00F60241 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AF7199723FEF99D00F60241 /* AppKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,9 +56,10 @@
 		5AF7193D23FDA75300F60241 /* prpg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = prpg.xcodeproj; path = lib/build/prpg.xcodeproj; sourceTree = "<group>"; };
 		5AF7194823FDAC9E00F60241 /* sfmlrenderer.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sfmlrenderer.cpp; sourceTree = "<group>"; };
 		5AF7194923FDAC9E00F60241 /* sfmlrenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sfmlrenderer.h; sourceTree = "<group>"; };
-		5AF7194B23FDAD1B00F60241 /* sfmlrunner.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = sfmlrunner.cpp; sourceTree = "<group>"; };
+		5AF7194B23FDAD1B00F60241 /* sfmlrunner.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = sfmlrunner.mm; sourceTree = "<group>"; };
 		5AF7194C23FDAD1B00F60241 /* sfmlrunner.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sfmlrunner.h; sourceTree = "<group>"; };
 		5AF7197823FDB04700F60241 /* SKrpg.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = SKrpg.xcodeproj; sourceTree = "<group>"; };
+		5AF7199723FEF99D00F60241 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5AF7199823FEF9AA00F60241 /* AppKit.framework in Frameworks */,
 				5AF7194723FDA81A00F60241 /* libprpg.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -100,7 +103,7 @@
 				5AF7183423FB06C900F60241 /* Supporting Files */,
 				5AF7194823FDAC9E00F60241 /* sfmlrenderer.cpp */,
 				5AF7194923FDAC9E00F60241 /* sfmlrenderer.h */,
-				5AF7194B23FDAD1B00F60241 /* sfmlrunner.cpp */,
+				5AF7194B23FDAD1B00F60241 /* sfmlrunner.mm */,
 				5AF7194C23FDAD1B00F60241 /* sfmlrunner.h */,
 			);
 			path = SFMLrpg;
@@ -128,6 +131,7 @@
 		5AF7193B23FDA6CB00F60241 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5AF7199723FEF99D00F60241 /* AppKit.framework */,
 				5AF7197823FDB04700F60241 /* SKrpg.xcodeproj */,
 			);
 			name = Frameworks;
@@ -273,7 +277,7 @@
 				5AF7194A23FDAC9E00F60241 /* sfmlrenderer.cpp in Sources */,
 				5AF7183A23FB06C900F60241 /* main.cpp in Sources */,
 				5AF7183723FB06C900F60241 /* ResourcePath.mm in Sources */,
-				5AF7194D23FDAD1B00F60241 /* sfmlrunner.cpp in Sources */,
+				5AF7194D23FDAD1B00F60241 /* sfmlrunner.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

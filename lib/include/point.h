@@ -1,12 +1,12 @@
-//
-//  point.h
-//  prpg
-//
-//  Created by ADodman on 20/02/2020.
-//
+#pragma once
 
-#ifndef point_h
-#define point_h
+namespace prpg {
 
-
-#endif /* point_h */
+//-----------------------------------------------------------------
+struct Point
+{
+	int x = 0;
+	int y = 0;
+};
+	
+}

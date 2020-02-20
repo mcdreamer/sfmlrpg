@@ -1,6 +1,8 @@
 #include "sfmlrunner.h"
 #include "sfmlrenderer.h"
 
+#import <AppKit/AppKit.h>
+
 #include <optional>
 
 #include "include/game.h"
@@ -28,9 +30,21 @@ namespace
 			case sf::Keyboard::Escape:
 				return prpg::Key::kEscape;
 			default:
-				return {};
+				return std::nullopt;
 		}
 	};
+	
+	//-----------------------------------------------------------------
+	float getDisplayScale()
+	{
+		NSScreen* screen = [NSScreen mainScreen];
+		if (screen)
+		{
+			return (float)[screen backingScaleFactor];
+		}
+		
+		return 1.0f;
+	}
 }
 
 //-----------------------------------------------------------------
@@ -39,8 +53,11 @@ void SFMLRunner::run()
 	prpg::Game game;
 	const auto gameInfo = game.getGameInfo();
 	
-	sf::RenderWindow window(sf::VideoMode(800, 600), gameInfo.windowTitle);
-	SFMLRenderer r(window);
+	const auto scale = getDisplayScale();
+	
+	sf::RenderWindow window(sf::VideoMode(scale * gameInfo.windowSize.width, scale * gameInfo.windowSize.height),
+							gameInfo.windowTitle);
+	SFMLRenderer r(window, scale);
 	
 	while (window.isOpen())
 	{
