@@ -9,9 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		08E9BD9F9120474593180246 /* ZERO_CHECK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 6F37FC0F90F54A169B0EC8D0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildConfigurationList = C475EB48011447629E8CF4CA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
 			buildPhases = (
-				82603B09D8FF49ABA194EC4A /* CMake Rules */,
+				157F1307E5254FEF986A4B8C /* CMake Rules */,
 			);
 			dependencies = (
 			);
@@ -20,13 +20,13 @@
 		};
 		5866A1B95E1546B7A3613722 /* ALL_BUILD */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = D690F581696B405A99064FB2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildConfigurationList = 3B1BBC6C9E98406E8E36DC7A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
 			buildPhases = (
-				D60AB5E6EF1B4A8AB6EEB7AB /* CMake Rules */,
+				A940658054AF4314977B2D13 /* CMake Rules */,
 			);
 			dependencies = (
-				CB3B4AACD54D47939E5C9DB7 /* PBXTargetDependency */,
-				52557C1796274B6CAFE406B6 /* PBXTargetDependency */,
+				44F93EC77CED495998A6447E /* PBXTargetDependency */,
+				6A07E5B8C1DB4708835059A9 /* PBXTargetDependency */,
 			);
 			name = ALL_BUILD;
 			productName = ALL_BUILD;
@@ -34,64 +34,66 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		2CA431B0FF9C4E2DAB1B64E8 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/rect.h */ = {isa = PBXBuildFile; fileRef = FB0AE029B53F4BABBAF669BB /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/rect.h */; };
-		3D11DC2E5F1445179899F543 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/colour.h */ = {isa = PBXBuildFile; fileRef = A8B2329F8E9647278FFEB55A /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/colour.h */; };
-		47DE588465494E94AC0D787E /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */ = {isa = PBXBuildFile; fileRef = 7835365B4C544ABD84836D1B /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */; };
-		731E3FE7E9D54D7AAF2177D8 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/key.h */ = {isa = PBXBuildFile; fileRef = 2B79DFD4DEC04D84ABDCA3B9 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/key.h */; };
-		8661CB6499F549D4A9750888 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gameinfo.h */ = {isa = PBXBuildFile; fileRef = 814664C11AF847E9B8A33FA2 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gameinfo.h */; };
-		AD82DDD33805418BB5582C99 /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = E5A9A0394762401782FE9DED /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */; };
-		BB23266A34504005810985D0 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gamestate.h */ = {isa = PBXBuildFile; fileRef = 69FC16FDA8164944AF9F3ACC /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gamestate.h */; };
-		D4E2136BD54F4E8CA25884D4 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/game.h */ = {isa = PBXBuildFile; fileRef = F4EC3382A78A4BED90CBA73C /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/game.h */; };
-		EABAFA6F1A154C4DACEBA9D7 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/igamerenderer.h */ = {isa = PBXBuildFile; fileRef = E2E4FDCCD3FC41E58E326BDB /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/igamerenderer.h */; };
+		1D242B0B5FC741EFA6279C0C /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/point.h */ = {isa = PBXBuildFile; fileRef = 0288D49B0F484394B37F0740 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/point.h */; };
+		332209DE8B1F4E028CCF92F1 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gamestate.h */ = {isa = PBXBuildFile; fileRef = A1DAD91575B34CCF979E6A60 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gamestate.h */; };
+		4F0B3A8DC1304420A2519225 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/key.h */ = {isa = PBXBuildFile; fileRef = 090BD55DEECF4F28A4B03A5A /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/key.h */; };
+		6C3FDC5DD10B4D4BAE13C66D /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/rect.h */ = {isa = PBXBuildFile; fileRef = 7FF6F49413774BD9992E2D05 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/rect.h */; };
+		A037AEF7E77D4E7682D95222 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/size.h */ = {isa = PBXBuildFile; fileRef = 484A53BA770B42E3BCA14219 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/size.h */; };
+		A327490C66E74D0FA3ADDE27 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/igamerenderer.h */ = {isa = PBXBuildFile; fileRef = A71E9E59C3C2436986BF1578 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/igamerenderer.h */; };
+		A848757EE7624E7CAA20B4BA /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = DEFFD8EB68EF4763A8973892 /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */; };
+		A8F75A0EF0BB4E79873BD1B0 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gameinfo.h */ = {isa = PBXBuildFile; fileRef = 882DB1B59A16441E95A3A7A6 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gameinfo.h */; };
+		E6482572FBD84549B74FE50E /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */ = {isa = PBXBuildFile; fileRef = A4E2C276026B4A1286BA1DF5 /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */; };
+		F78BB6E0C88D44E9BFF07752 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/colour.h */ = {isa = PBXBuildFile; fileRef = 543FF8CEE068411686A4CBD9 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/colour.h */; };
+		FA4967A153AC4F6C9FA97DB5 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/game.h */ = {isa = PBXBuildFile; fileRef = A69B09B1514843CF91AE96DA /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/game.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXBuildStyle section */
-		8051EE1B685948A982845EE4 /* Release */ = {
+		1B47EFFC7A1E4076B356E718 /* Release */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = Release;
 		};
-		8CF6950419B04A7DA886FA5E /* Debug */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		9303A76816C444A7B12AB4C8 /* RelWithDebInfo */ = {
-			isa = PBXBuildStyle;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = RelWithDebInfo;
-		};
-		B1540B6550F54299ACA464CB /* MinSizeRel */ = {
+		1CAD0721D06340B3877BBAE0 /* MinSizeRel */ = {
 			isa = PBXBuildStyle;
 			buildSettings = {
 				COPY_PHASE_STRIP = NO;
 			};
 			name = MinSizeRel;
 		};
+		3AEBEE94974C4436BD077216 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+		99AD4223B35440A7AE256FFA /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
 /* End PBXBuildStyle section */
 
 /* Begin PBXContainerItemProxy section */
-		A94CA48534E8411089348EB6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 5BD22C02D8034CBCB3930425 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 08E9BD9F9120474593180246;
-			remoteInfo = ZERO_CHECK;
-		};
-		CC926462E2FF4816A36D0A53 /* PBXContainerItemProxy */ = {
+		37905B2C69F24DDF9C269D95 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5BD22C02D8034CBCB3930425 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 426D1F21959C4588AFC20592;
 			remoteInfo = prpg;
 		};
-		DDA892D9374E4E0093E7BA9F /* PBXContainerItemProxy */ = {
+		9FA26628A26D46988C2FFFA4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BD22C02D8034CBCB3930425 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08E9BD9F9120474593180246;
+			remoteInfo = ZERO_CHECK;
+		};
+		AA4351C88C1A4E3C9B181B56 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5BD22C02D8034CBCB3930425 /* Project object */;
 			proxyType = 1;
@@ -101,83 +103,87 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		16D44D2284CF4E8DB838A57E /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		2B79DFD4DEC04D84ABDCA3B9 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/key.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = key.h; path = include/key.h; sourceTree = SOURCE_ROOT; };
-		69FC16FDA8164944AF9F3ACC /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gamestate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gamestate.h; path = include/gamestate.h; sourceTree = SOURCE_ROOT; };
-		7835365B4C544ABD84836D1B /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game.cpp; path = game/game.cpp; sourceTree = SOURCE_ROOT; };
-		814664C11AF847E9B8A33FA2 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gameinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gameinfo.h; path = include/gameinfo.h; sourceTree = SOURCE_ROOT; };
-		A8B2329F8E9647278FFEB55A /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/colour.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colour.h; path = include/colour.h; sourceTree = SOURCE_ROOT; };
-		E2E4FDCCD3FC41E58E326BDB /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/igamerenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = igamerenderer.h; path = include/igamerenderer.h; sourceTree = SOURCE_ROOT; };
-		E5A9A0394762401782FE9DED /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
-		F4EC3382A78A4BED90CBA73C /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/game.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = game.h; path = include/game.h; sourceTree = SOURCE_ROOT; };
-		FB0AE029B53F4BABBAF669BB /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/rect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rect.h; path = include/rect.h; sourceTree = SOURCE_ROOT; };
-		FF6D22F3177242E7A2BD95D6 /* prpg */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libprpg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		0288D49B0F484394B37F0740 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/point.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = point.h; path = include/point.h; sourceTree = SOURCE_ROOT; };
+		090BD55DEECF4F28A4B03A5A /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/key.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = key.h; path = include/key.h; sourceTree = SOURCE_ROOT; };
+		3D1BB29DE4EF421A8939DC72 /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		484A53BA770B42E3BCA14219 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/size.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = size.h; path = include/size.h; sourceTree = SOURCE_ROOT; };
+		543FF8CEE068411686A4CBD9 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/colour.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = colour.h; path = include/colour.h; sourceTree = SOURCE_ROOT; };
+		7FF6F49413774BD9992E2D05 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/rect.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = rect.h; path = include/rect.h; sourceTree = SOURCE_ROOT; };
+		81A4C43B3ED74473A2D55C44 /* prpg */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libprpg.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		882DB1B59A16441E95A3A7A6 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gameinfo.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gameinfo.h; path = include/gameinfo.h; sourceTree = SOURCE_ROOT; };
+		A1DAD91575B34CCF979E6A60 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gamestate.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = gamestate.h; path = include/gamestate.h; sourceTree = SOURCE_ROOT; };
+		A4E2C276026B4A1286BA1DF5 /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = game.cpp; path = game/game.cpp; sourceTree = SOURCE_ROOT; };
+		A69B09B1514843CF91AE96DA /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/game.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = game.h; path = include/game.h; sourceTree = SOURCE_ROOT; };
+		A71E9E59C3C2436986BF1578 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/igamerenderer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = igamerenderer.h; path = include/igamerenderer.h; sourceTree = SOURCE_ROOT; };
+		DEFFD8EB68EF4763A8973892 /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
-		55C84C2B0A084EC7860D133A /* include */ = {
+		0951FF5144774BDBBCF3CE70 = {
 			isa = PBXGroup;
 			children = (
-				A8B2329F8E9647278FFEB55A /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/colour.h */,
-				F4EC3382A78A4BED90CBA73C /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/game.h */,
-				814664C11AF847E9B8A33FA2 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gameinfo.h */,
-				69FC16FDA8164944AF9F3ACC /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gamestate.h */,
-				E2E4FDCCD3FC41E58E326BDB /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/igamerenderer.h */,
-				2B79DFD4DEC04D84ABDCA3B9 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/key.h */,
-				FB0AE029B53F4BABBAF669BB /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/rect.h */,
+				E62C7CE6180043CE83A61FE3 /* prpg */,
+				85318E09BA564C69AECF7450 /* ALL_BUILD */,
+				EF3B310D3F404B609DFD3A54 /* Products */,
 			);
-			name = include;
 			sourceTree = "<group>";
 		};
-		679051C8B1FA48E6BE8F842D /* game */ = {
+		4E01E9D9F3B540F5AF091D1E /* game */ = {
 			isa = PBXGroup;
 			children = (
-				7835365B4C544ABD84836D1B /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */,
+				A4E2C276026B4A1286BA1DF5 /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */,
 			);
 			name = game;
 			sourceTree = "<group>";
 		};
-		770D3FA42270484ABC8D8C9B /* prpg */ = {
+		7505E0FB09D34E4CB88FE604 /* include */ = {
 			isa = PBXGroup;
 			children = (
-				679051C8B1FA48E6BE8F842D /* game */,
-				55C84C2B0A084EC7860D133A /* include */,
-				E5A9A0394762401782FE9DED /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */,
+				543FF8CEE068411686A4CBD9 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/colour.h */,
+				A69B09B1514843CF91AE96DA /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/game.h */,
+				882DB1B59A16441E95A3A7A6 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gameinfo.h */,
+				A1DAD91575B34CCF979E6A60 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/gamestate.h */,
+				A71E9E59C3C2436986BF1578 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/igamerenderer.h */,
+				090BD55DEECF4F28A4B03A5A /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/key.h */,
+				0288D49B0F484394B37F0740 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/point.h */,
+				7FF6F49413774BD9992E2D05 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/rect.h */,
+				484A53BA770B42E3BCA14219 /* /Users/adodman/mcdreamer/SFMLrpg/lib/include/size.h */,
 			);
-			name = prpg;
+			name = include;
 			sourceTree = "<group>";
 		};
-		7BBCFA8CC6CE4222B995F57B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				FF6D22F3177242E7A2BD95D6 /* prpg */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		E1DF5E5BDA7C42C39D7010BA /* CMake Rules */ = {
+		807393BDBF5D47DE997883D2 /* CMake Rules */ = {
 			isa = PBXGroup;
 			children = (
 			);
 			name = "CMake Rules";
 			sourceTree = "<group>";
 		};
-		E8188596360E4690A968FAEF = {
+		85318E09BA564C69AECF7450 /* ALL_BUILD */ = {
 			isa = PBXGroup;
 			children = (
-				770D3FA42270484ABC8D8C9B /* prpg */,
-				FBEEDF658B7F453B8F7DD227 /* ALL_BUILD */,
-				7BBCFA8CC6CE4222B995F57B /* Products */,
-			);
-			sourceTree = "<group>";
-		};
-		FBEEDF658B7F453B8F7DD227 /* ALL_BUILD */ = {
-			isa = PBXGroup;
-			children = (
-				E1DF5E5BDA7C42C39D7010BA /* CMake Rules */,
-				16D44D2284CF4E8DB838A57E /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */,
+				807393BDBF5D47DE997883D2 /* CMake Rules */,
+				3D1BB29DE4EF421A8939DC72 /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */,
 			);
 			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		E62C7CE6180043CE83A61FE3 /* prpg */ = {
+			isa = PBXGroup;
+			children = (
+				4E01E9D9F3B540F5AF091D1E /* game */,
+				7505E0FB09D34E4CB88FE604 /* include */,
+				DEFFD8EB68EF4763A8973892 /* /Users/adodman/mcdreamer/SFMLrpg/lib/CMakeLists.txt */,
+			);
+			name = prpg;
+			sourceTree = "<group>";
+		};
+		EF3B310D3F404B609DFD3A54 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				81A4C43B3ED74473A2D55C44 /* prpg */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,18 +191,18 @@
 /* Begin PBXNativeTarget section */
 		426D1F21959C4588AFC20592 /* prpg */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BA6F1FC0D40E438B97ACB81B /* Build configuration list for PBXNativeTarget "prpg" */;
+			buildConfigurationList = A8D504DD6D5745F9AF417262 /* Build configuration list for PBXNativeTarget "prpg" */;
 			buildPhases = (
-				C4D6C0B2548C4EFF8996CDFF /* Sources */,
+				D8531B043EC64C8EA097A252 /* Sources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FE25C4D01CB34B3E84218CAE /* PBXTargetDependency */,
+				916F436663C3453D8BB847F8 /* PBXTargetDependency */,
 			);
 			name = prpg;
 			productName = prpg;
-			productReference = FF6D22F3177242E7A2BD95D6 /* prpg */;
+			productReference = 81A4C43B3ED74473A2D55C44 /* prpg */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -208,18 +214,18 @@
 				BuildIndependentTargetsInParallel = YES;
 				LastUpgradeCheck = 1130;
 			};
-			buildConfigurationList = 8AF32B04C62948EAB835A536 /* Build configuration list for PBXProject "prpg" */;
+			buildConfigurationList = 3D6ACBEA17784DE898B2F8CF /* Build configuration list for PBXProject "prpg" */;
 			buildSettings = {
 			};
 			buildStyles = (
-				8CF6950419B04A7DA886FA5E /* Debug */,
-				8051EE1B685948A982845EE4 /* Release */,
-				B1540B6550F54299ACA464CB /* MinSizeRel */,
-				9303A76816C444A7B12AB4C8 /* RelWithDebInfo */,
+				99AD4223B35440A7AE256FFA /* Debug */,
+				1B47EFFC7A1E4076B356E718 /* Release */,
+				1CAD0721D06340B3877BBAE0 /* MinSizeRel */,
+				3AEBEE94974C4436BD077216 /* RelWithDebInfo */,
 			);
 			compatibilityVersion = "Xcode 3.2";
 			hasScannedForEncodings = 0;
-			mainGroup = E8188596360E4690A968FAEF;
+			mainGroup = 0951FF5144774BDBBCF3CE70;
 			projectDirPath = ../;
 			projectRoot = "";
 			targets = (
@@ -231,7 +237,7 @@
 /* End PBXProject section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		82603B09D8FF49ABA194EC4A /* CMake Rules */ = {
+		157F1307E5254FEF986A4B8C /* CMake Rules */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -242,18 +248,7 @@
 			shellScript = "make -C /Users/adodman/mcdreamer/SFMLrpg/lib/build -f /Users/adodman/mcdreamer/SFMLrpg/lib/build/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
 			showEnvVarsInLog = 0;
 		};
-		D60AB5E6EF1B4A8AB6EEB7AB /* CMake Rules */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			name = "CMake Rules";
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "make -C /Users/adodman/mcdreamer/SFMLrpg/lib/build -f /Users/adodman/mcdreamer/SFMLrpg/lib/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
-			showEnvVarsInLog = 0;
-		};
-		E3BF797BCA844D7FBA5BBA02 = {
+		79B5A4F3C0C74058ACE15336 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -268,7 +263,18 @@
 exit 0";
 			showEnvVarsInLog = 0;
 		};
-		ECCD2885824647EEB2CC2840 = {
+		A940658054AF4314977B2D13 /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/adodman/mcdreamer/SFMLrpg/lib/build -f /Users/adodman/mcdreamer/SFMLrpg/lib/build/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		B1D4314FBA354C42B574FF65 = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -286,141 +292,36 @@ exit 0";
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C4D6C0B2548C4EFF8996CDFF /* Sources */ = {
+		D8531B043EC64C8EA097A252 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47DE588465494E94AC0D787E /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */,
+				E6482572FBD84549B74FE50E /* /Users/adodman/mcdreamer/SFMLrpg/lib/game/game.cpp */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		52557C1796274B6CAFE406B6 /* PBXTargetDependency */ = {
+		44F93EC77CED495998A6447E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 426D1F21959C4588AFC20592 /* prpg */;
-			targetProxy = CC926462E2FF4816A36D0A53 /* PBXContainerItemProxy */;
+			targetProxy = 37905B2C69F24DDF9C269D95 /* PBXContainerItemProxy */;
 		};
-		CB3B4AACD54D47939E5C9DB7 /* PBXTargetDependency */ = {
+		6A07E5B8C1DB4708835059A9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 08E9BD9F9120474593180246 /* ZERO_CHECK */;
-			targetProxy = DDA892D9374E4E0093E7BA9F /* PBXContainerItemProxy */;
+			targetProxy = 9FA26628A26D46988C2FFFA4 /* PBXContainerItemProxy */;
 		};
-		FE25C4D01CB34B3E84218CAE /* PBXTargetDependency */ = {
+		916F436663C3453D8BB847F8 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 08E9BD9F9120474593180246 /* ZERO_CHECK */;
-			targetProxy = A94CA48534E8411089348EB6 /* PBXContainerItemProxy */;
+			targetProxy = AA4351C88C1A4E3C9B181B56 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		08875D097FD44104BBEC7EEE /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		0B09DA3D2FB64FD48604B163 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				EXECUTABLE_PREFIX = lib;
-				EXECUTABLE_SUFFIX = .a;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 3;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				HEADER_SEARCH_PATHS = (/Users/adodman/mcdreamer/SFMLrpg/lib/.,/Users/adodman/mcdreamer/SFMLrpg/lib/game);
-				INSTALL_PATH = "";
-				LIBRARY_STYLE = STATIC;
-				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++1z'  ";
-				OTHER_LIBTOOLFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = prpg;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		0FADB4D2D7FC4556AA6ADFC1 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build/build;
-			};
-			name = Debug;
-		};
-		2EE0269762FC425295857959 /* RelWithDebInfo */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = RelWithDebInfo;
-		};
-		3E7F41874C894422B04817DC /* MinSizeRel */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build/build;
-			};
-			name = MinSizeRel;
-		};
-		503034B9979540F4B90FD38E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		5FA958712AED49F794C1C70F /* MinSizeRel */ = {
+		08E32D1081CE4D2296A34D37 /* MinSizeRel */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -445,7 +346,172 @@ exit 0";
 			};
 			name = MinSizeRel;
 		};
-		6ECE9B08E9CF47D9A1B33006 /* RelWithDebInfo */ = {
+		10C93F6297A741C280297363 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Debug;
+		};
+		3C64746C25174465BEA15D99 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		5228508B873C4F118D0A86AC /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		54A133259C39429DAF7A15EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build/build;
+			};
+			name = Release;
+		};
+		6517F26D40DF47228EF555F2 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		7B436BAAE61E429B85DDAE02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build/build;
+			};
+			name = Debug;
+		};
+		87679BE5E78248F5AE6983DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/adodman/mcdreamer/SFMLrpg/lib/.,/Users/adodman/mcdreamer/SFMLrpg/lib/game);
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=c++1z'  ";
+				OTHER_LIBTOOLFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = prpg;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		878A86CD3DC74A77BFF544AA /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build/build;
+			};
+			name = MinSizeRel;
+		};
+		88FDF9906CAF4D3B9C61178A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build/build;
+			};
+			name = RelWithDebInfo;
+		};
+		91648A9586D64684B08C1849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
+			};
+			name = Release;
+		};
+		A71A255C775943688E315DA9 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -470,77 +536,7 @@ exit 0";
 			};
 			name = RelWithDebInfo;
 		};
-		7776675849984FA59B792124 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Release;
-		};
-		88733387F74D40A98B7CC2C6 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ZERO_CHECK;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		95FCF2501B2B47CCB9135F80 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COMBINE_HIDPI_IMAGES = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
-				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				INSTALL_PATH = "";
-				OTHER_LDFLAGS = " ";
-				OTHER_REZFLAGS = "";
-				PRODUCT_NAME = ALL_BUILD;
-				SECTORDER_FLAGS = "";
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
-				USE_HEADERMAP = NO;
-				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
-			};
-			name = Debug;
-		};
-		9D6E7B8082B44180B4B73AA6 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build/build;
-			};
-			name = Release;
-		};
-		B0A99AAEC63F420EA3964EEC /* Debug */ = {
+		AC53ACC693744B148BD82500 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -565,7 +561,7 @@ exit 0";
 			};
 			name = Debug;
 		};
-		BA75C62018934E46ACFB2C88 /* MinSizeRel */ = {
+		B12623DB77F1438BB5A45EA3 /* RelWithDebInfo */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -583,9 +579,9 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = MinSizeRel;
+			name = RelWithDebInfo;
 		};
-		D049B0259380405BB81B76BC /* MinSizeRel */ = {
+		C43A44BFEF47489EB738D8C9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
@@ -603,61 +599,71 @@ exit 0";
 				USE_HEADERMAP = NO;
 				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = MinSizeRel;
+			name = Release;
 		};
-		E1FD1C1FD60B49F38EC3210F /* RelWithDebInfo */ = {
+		C85A62B7E1CA4A9980DB53C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.15.sdk;
-				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build/build;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/adodman/mcdreamer/SFMLrpg/lib/build;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("-Wmost","-Wno-four-char-constants","-Wno-unknown-pragmas","$(inherited)");
 			};
-			name = RelWithDebInfo;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6F37FC0F90F54A169B0EC8D0 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+		3B1BBC6C9E98406E8E36DC7A /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				88733387F74D40A98B7CC2C6 /* Debug */,
-				503034B9979540F4B90FD38E /* Release */,
-				D049B0259380405BB81B76BC /* MinSizeRel */,
-				2EE0269762FC425295857959 /* RelWithDebInfo */,
+				10C93F6297A741C280297363 /* Debug */,
+				91648A9586D64684B08C1849 /* Release */,
+				6517F26D40DF47228EF555F2 /* MinSizeRel */,
+				B12623DB77F1438BB5A45EA3 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		8AF32B04C62948EAB835A536 /* Build configuration list for PBXProject "prpg" */ = {
+		3D6ACBEA17784DE898B2F8CF /* Build configuration list for PBXProject "prpg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0FADB4D2D7FC4556AA6ADFC1 /* Debug */,
-				9D6E7B8082B44180B4B73AA6 /* Release */,
-				3E7F41874C894422B04817DC /* MinSizeRel */,
-				E1FD1C1FD60B49F38EC3210F /* RelWithDebInfo */,
+				7B436BAAE61E429B85DDAE02 /* Debug */,
+				54A133259C39429DAF7A15EA /* Release */,
+				878A86CD3DC74A77BFF544AA /* MinSizeRel */,
+				88FDF9906CAF4D3B9C61178A /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		BA6F1FC0D40E438B97ACB81B /* Build configuration list for PBXNativeTarget "prpg" */ = {
+		A8D504DD6D5745F9AF417262 /* Build configuration list for PBXNativeTarget "prpg" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B0A99AAEC63F420EA3964EEC /* Debug */,
-				0B09DA3D2FB64FD48604B163 /* Release */,
-				5FA958712AED49F794C1C70F /* MinSizeRel */,
-				6ECE9B08E9CF47D9A1B33006 /* RelWithDebInfo */,
+				AC53ACC693744B148BD82500 /* Debug */,
+				87679BE5E78248F5AE6983DE /* Release */,
+				08E32D1081CE4D2296A34D37 /* MinSizeRel */,
+				A71A255C775943688E315DA9 /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
 		};
-		D690F581696B405A99064FB2 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+		C475EB48011447629E8CF4CA /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				95FCF2501B2B47CCB9135F80 /* Debug */,
-				7776675849984FA59B792124 /* Release */,
-				BA75C62018934E46ACFB2C88 /* MinSizeRel */,
-				08875D097FD44104BBEC7EEE /* RelWithDebInfo */,
+				C85A62B7E1CA4A9980DB53C8 /* Debug */,
+				C43A44BFEF47489EB738D8C9 /* Release */,
+				3C64746C25174465BEA15D99 /* MinSizeRel */,
+				5228508B873C4F118D0A86AC /* RelWithDebInfo */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;
